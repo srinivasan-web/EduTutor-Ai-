@@ -5,13 +5,15 @@ EduTutor AI: Personalized Learning with Generative AI and LMS Integration
    Team Leader: 	Srinivasan M 
    Team Member: 	Shankar R
    Team Member: 	Sanjeevkumar M
+   
 2. Project Overview
 EduTutor AI is an educational assistant built with the Granite LLM from Hugging Face.
 It provides personalized learning experiences through:
 📘 Concept Explanation (detailed breakdowns with examples)
 📝 Quiz Generator (MCQ, True/False, and short answers with solutions)
 The project runs seamlessly in Google Colab for low setup effort and reliable performance, making it easy to deploy and extend with new features.
-3. Architecture
+
+4. Architecture
 Frontend: Gradio interface with tabs for concept explanation and quiz generation.
 Backend: Hugging Face Transformers + IBM Granite Model for inference.
 Deployment: Google Colab for runtime environment and live public links.
@@ -21,7 +23,7 @@ Flow:
 2.Hugging Face Granite LLM processes the input.
 3.Response is generated (explanation or quiz).
 4.Output displayed in Gradio UI.
-4. Technologies Used:
+5. Technologies Used:
 - IBM Granite Model (via Hugging Face Transformers)
  - Hugging Face transformers library
  - PyTorch (torch) for model execution
@@ -48,7 +50,9 @@ Flow:
 • docs/ – Project documentation.
 • screenshots/ – UI screenshots.
 • .gitignore – Git ignore file.
-7. Running the Application
+
+8. Running the Application
+
 - **Option 1:** Run locally with Python → http://localhost:7860
 - **Option 2:** Run in Google Colab → Generates a `gradio.live` public link.
 - Select the desired tab (Concept Explanation or Quiz Generator).
